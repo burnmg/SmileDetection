@@ -1,0 +1,4 @@
+{
+  "pytest_test.py::test_raises_exception_on_non_string_arguments": true,
+  "test_form.py::test_2": true
+}
