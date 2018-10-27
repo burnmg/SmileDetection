@@ -100,8 +100,9 @@ class TestThread(QThread):
         response = requests.post(emotion_recognition_url, headers=headers, params=params, data=image_data)
         response.raise_for_status()
         analysis = response.json()
-        # print(analysis)
+
         self.sig.emit(analysis)
+
 
 if __name__ == "__main__":
     import sys
@@ -112,3 +113,4 @@ if __name__ == "__main__":
     Form.show()
     sys.exit(app.exec_())
 
+#
