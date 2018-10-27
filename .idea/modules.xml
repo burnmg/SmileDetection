@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/SimleyBudding.iml" filepath="$PROJECT_DIR$/.idea/SimleyBudding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/SmileDetection.iml" filepath="$PROJECT_DIR$/.idea/SmileDetection.iml" />
     </modules>
   </component>
 </project>
