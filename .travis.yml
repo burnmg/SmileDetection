@@ -25,4 +25,4 @@ install:
   - conda install -c dsdale24 pyqt5
   - source activate test-environment
 script:
-  - python form.py
+  - form.py
