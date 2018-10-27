@@ -2,4 +2,4 @@ language: python
 python:
   - "3.6"
 script:
-  -  xvfb-run pytest test_form.py
+  -  python test_form.py
