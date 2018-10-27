@@ -16,7 +16,6 @@ import requests
 class Ui_Form(QGraphicsObject):
 
     def setupUi(self, Form):
-
         Form.setObjectName("Form")
         Form.resize(563, 413)
         self.pushButton = QtWidgets.QPushButton(Form)
