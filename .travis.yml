@@ -24,4 +24,5 @@ install:
   - conda install requests
   - conda install -c dsdale24 pyqt5
   - source activate test-environment
-  - python setup.py install
+script:
+  - python form.py
