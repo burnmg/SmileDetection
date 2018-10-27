@@ -22,6 +22,6 @@ install:
   - conda create -q -n test-environment python=$TRAVIS_PYTHON_VERSION
   - conda install opencv
   - conda install requests
-  - conda install pyqt5
+  - conda install -c dsdale24 pyqt5
   - source activate test-environment
   - python setup.py install
